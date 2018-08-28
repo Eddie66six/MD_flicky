@@ -30,7 +30,7 @@ public class PItemAcoes : MonoBehaviour {
 	}
 	void Follow(){
 		if (Next != null) {
-			transform.position = Vector2.Lerp(transform.position, new Vector2(Next.transform.position.x, Next.transform.position.y -size), Time.deltaTime * 2f);
+			transform.position = Vector2.Lerp(transform.position, new Vector2(Next.transform.position.x, Next.transform.position.y -size), Time.deltaTime * 5f);
 		}
 	}
 }

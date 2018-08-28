@@ -15,8 +15,8 @@ public class PlayerMove : MonoBehaviour {
 	private int _NumberJump;
 
 	void Awake(){
-		_SpeedDefault = 4;
-		_ForceJumpDefault = 1700;
+		_SpeedDefault = 6;
+		_ForceJumpDefault = 1750;
 	}
 	// Use this for initialization
 	void Start () {
